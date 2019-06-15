@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    background-color:black;
+    color:white;
+}
+
+body img {
+    margin:50px 50px;
+    width:50%;
+}
+
+
+body button {
+    border-style: none;
+    background-color: red;
+    color:white;
+    margin-top:50px;
+    height:40px;
+    width:200px;
+    font-size: 28px;
+}

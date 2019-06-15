@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <title>Dotfy</title>
+    <link rel="stylesheet" type="text/css" href="css/index.css?201906011">
+</head>
+<html>
+    <body>
+        <header>
+            <h1>Dotfy</h1>
+        </header>
+        <div class="main">
+            <form action="editimage" enctype="multipart/form-data" method="post">
+                <div class="imagefile">
+                    <input type="file" name="image" accept="image/x-png">
+                </div>
+
+                <div class="aspect">
+                    <p class="title">縦 × 横</p>
+                    <input class="height" name="height" type="number" value="256" min="1" max="500">
+                    <p class="colon">×</p>
+                    <input class="width" name="width" type="number" value="256" min="1" max="500">
+                    <div class="clear"></div>
+                </div>
+
+                <div class="bits">
+                    <p class="title">色数</p>
+                    <select name="nbits">
+                        <option value="1 bits">1 bits</option>
+                        <option value="2 bits">2 bits</option>
+                        <option value="3 bits">3 bits</option>
+                        <option selected value="4 bits">4 bits</option>
+                        <option value="5 bits">5 bits</option>
+                        <option value="6 bits">6 bits</option>
+                        <option value="7 bits">7 bits</option>
+                        <option value="8 bits">8 bits</option>
+                    </select>
+                </div>
+                <input class="submit btn" type="submit" value="変換する">
+            </form>
+        </div>
+    </body>
+</html>

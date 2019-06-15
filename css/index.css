@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    background-color:black;
+    color:white;
+}
+
+.title {
+    border-top : 1px solid red;
+    border-bottom: 1px solid red;
+}
+
+.aspect {
+    height:100px;
+}
+
+
+.aspect input {
+    width:10%;
+}
+
+.aspect .height {
+    display: inline-block;
+}
+
+.aspect .colon {
+    display: inline-block;
+    width:5%;
+}
+
+.clear {
+    clear: both;
+}
+
+
+.bits {
+}
+
+.bits select {
+    margin-bottom: 10px;
+}
+
+.btn {
+    border-style: none;
+    background-color: red;
+    color:white;
+    margin-top:50px;
+    height:40px;
+    width:200px;
+    font-size: 28px;
+}
+
+.btn:hover {
+    background-color: palevioletred;
+}
